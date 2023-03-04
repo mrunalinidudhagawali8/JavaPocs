@@ -1,0 +1,46 @@
+{
+  "employee": {
+    "id": "1212",
+    "fullName": "John Miles",
+    "age": 34,
+    "contact": {
+      "email": "john@xyz.com",
+      "phone": "9999999999"
+    }
+  },
+  "orderDetails": {
+    "orderId": "1212",
+    "DeliveryAddress": "abcd",
+    "orders": [
+    
+      {
+        "itemId": "order1",
+       
+        "itemDetails": {
+          "weightInKg": 12.3,
+          "qty": 2
+        },
+		 "item": "wheat"
+      },
+	   {
+        "itemId": "order3",
+        "item": "meat",
+        "itemDetails": {
+          "weightInKg": 12.5,
+          "qty": 2
+        }
+      },
+      {
+      
+        "itemId": "order2",
+        "item": "eggs",
+		 "itemDetails": {
+          "weightInKg": 12.4,
+          "qty": 2
+        }
+       
+      }
+     
+    ]
+  }
+}
